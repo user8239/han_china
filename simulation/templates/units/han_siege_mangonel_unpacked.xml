@@ -2,10 +2,9 @@
 <Entity parent="template_unit_siege_stonethrower">
     <Attack>
         <Ranged>
-            <MaxRange>90</MaxRange>
-            <MinRange>35.0</MinRange>
+            <MaxRange>85</MaxRange>
+            <MinRange>30.0</MinRange>
             <Projectile>
-				<Spread>6.0</Spread>
                 <Speed>75.5</Speed>
                 <Gravity>9.81</Gravity>
             </Projectile>
