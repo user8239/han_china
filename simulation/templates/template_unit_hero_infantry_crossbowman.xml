@@ -4,13 +4,13 @@
         <Ranged>
             <Damage>
                 <Hack>0</Hack>
-                <Pierce>10.0</Pierce>
+                <Pierce>12.0</Pierce>
                 <Crush>0</Crush>
             </Damage>
-            <MaxRange>108</MaxRange>
+            <MaxRange>88</MaxRange>
             <MinRange>0.0</MinRange>
-            <PrepareTime>200</PrepareTime>
-            <RepeatTime>300</RepeatTime>
+            <PrepareTime>400</PrepareTime>
+            <RepeatTime>600</RepeatTime>
             <Delay>0</Delay>
             <Projectile>
                 <Speed>150.0</Speed>
