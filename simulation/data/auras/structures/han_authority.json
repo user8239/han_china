@@ -1,0 +1,10 @@
+{
+	"type": "range",
+	"radius": 72,
+	"affects": ["Structure !Wonder !CivCentre !GovCentre"],
+	"modifications": [
+		{ "value": "Capturable/CapturePoints", "multiply": 2.0 }
+	],
+	"auraDescription": "Structures (excepting the Government Centre, Wonder, and Civic Centres) +100% capture points",
+	"auraName": "Seat of Authority"
+}

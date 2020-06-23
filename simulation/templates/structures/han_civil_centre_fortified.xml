@@ -44,6 +44,7 @@
         </Technologies>
     </ProductionQueue>
     <Upgrade disable=""/>
+    <ResourceDropsite disable=""/>
     <VisualActor>
         <Actor>structures/han/civil_centre.xml</Actor>
     </VisualActor>

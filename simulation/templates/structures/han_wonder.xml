@@ -4,6 +4,7 @@
         structures/epic_temple_heal
         structures/wonder_pop_1
         structures/wonder_pop_2
+        structures/han_authority
     </Auras>
     <Footprint replace="">
         <Square width="48.0" depth="43.0"/>

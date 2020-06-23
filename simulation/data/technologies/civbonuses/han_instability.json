@@ -1,0 +1,12 @@
+{
+	"genericName": "Internal Instability",
+	"autoResearch": true,
+	"description": "As most vast civilizations were, the han were plagued by intrigue, rivalry and rebellion.",
+	"requirements": { "civ": "han" },
+	"icon": "ionic_column.png",
+	"tooltip": "Han Structures (excepting the Government Centre, Wonder, and Civic Centres) -50% capture points.",
+	"modifications": [
+		{ "value": "Capturable/CapturePoints", "multiply": 0.5 }
+	],
+	"affects": ["Structure !Wonder !CivCentre !GovCentre"]
+}
