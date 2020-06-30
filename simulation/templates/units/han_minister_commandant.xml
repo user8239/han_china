@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/han_minister">
+	<Armour>
+        <Hack>4.0</Hack>
+        <Pierce>6.0</Pierce>
+        <Crush>6.0</Crush>
+    </Armour>
+    <Attack>
+        <Capture>
+            <Capture>30</Capture>
+        </Capture>
+    </Attack>
+    <Auras datatype="tokens">
+        -units/han_minister_garrison
+        -units/han_minister_worker
+        -units/han_minister_cost
+        units/han_commandant_1
+        units/han_commandant_2
+        units/han_commandant_3    
+    </Auras>
+    <Cost>
+        <Population>3</Population>
+    </Cost>
+    <Health>
+        <Max>200</Max>
+    </Health>
+    <Identity>
+        <Civ>han</Civ>
+        <GenericName>Grand Commandant</GenericName>
+        <SpecificName>Tài Wèi</SpecificName>
+        <Icon>units/han_minister.png</Icon>
+        <Tooltip>Use to boost the efficiency of nearby units and buildings. Garrison within a building to boost the efficiency of its production queue. Only han buildings can garrison ministers</Tooltip>
+        <History>The Three Excellencies of the Han Dynasty were among the most influential in Court. Tremendously well-paid and infinitely respected, they each controlled three of nine ministries of government.</History>
+        <RequiredTechnology>phase_city</RequiredTechnology>
+    </Identity>
+    <Minimap>
+        <Type>hero</Type>
+    </Minimap>
+    <TrainingRestrictions>
+        <Category>Commandant</Category>
+    </TrainingRestrictions>
+    <Vision>
+        <Range>60</Range>
+    </Vision>
+    <Upgrade disable=""/>
+    <VisualActor>
+        <Actor>units/han/minister.xml</Actor>
+    </VisualActor>
+</Entity>

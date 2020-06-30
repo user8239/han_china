@@ -6,26 +6,25 @@
 	"modifications": [
 		{
 			"value": "ProductionQueue/TechCostMultiplier/wood",
-			"multiply": 0.95
+			"multiply": 0.75
 		},
 		{
 			"value": "ProductionQueue/TechCostMultiplier/food",
-			"multiply": 0.95
+			"multiply": 0.75
 		},
 		{
 			"value": "ProductionQueue/TechCostMultiplier/metal",
-			"multiply": 0.95
+			"multiply": 0.75
 		},
 		{
 			"value": "ProductionQueue/TechCostMultiplier/stone",
-			"multiply": 0.95
+			"multiply": 0.75
 		},
 		{
 			"value": "ProductionQueue/TechCostMultiplier/time",
-			"multiply": 0.95
+			"multiply": 0.75
 		}
 	],
-	"auraName": "Pressured Creativity",
-	"auraDescription": "Decrease resource costs and research time of technologies in a building by -5% for each Minister garrisoned within.",
-	"stackable": true
+	"auraName": "Minister of Ceremonies",
+	"auraDescription": "Supervises the Imperial Academy. Decrease resource costs and research time of technologies by 25% in a building when garrisoned within."
 }

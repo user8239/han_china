@@ -1,0 +1,12 @@
+{
+	"type": "global",
+	"affects": ["Hero"],
+	"modifications": [
+		{ "value": "Health/Max", "multiply": 1.1 },
+		{ "value": "Armour/Hack", "add": 3 },
+		{ "value": "Armour/Pierce", "add": 3 },
+		{ "value": "Armour/Crush", "add": 3 }
+	],
+	"auraName": "Minister Steward",
+	"auraDescription": "Heroes +3 armour levels and +10% health."
+}

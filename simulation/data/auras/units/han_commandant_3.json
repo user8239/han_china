@@ -1,0 +1,14 @@
+{
+	"type": "range",
+	"radius": 40,
+	"affects": [
+		"PalaceGuard"
+	],
+	"modifications": [
+		{ "value": "Armour/Hack", "add": 3 },
+		{ "value": "Armour/Pierce", "add": 3 },
+		{ "value": "Armour/Crush", "add": 3 }
+	],
+	"auraName": "Minister of the Guards",
+	"auraDescription": "Coordinated defence. Increases nearby Palace Guard armour levels by 3."
+}

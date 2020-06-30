@@ -1,0 +1,11 @@
+{
+	"type": "garrison",
+	"affects": [
+		"Structure"
+	],
+	"modifications": [
+		{ "value": "Capturable/CapturePoints", "multiply": 3.0 }
+	],
+	"auraName": "Minister of the Household",
+	"auraDescription": "Increase the capture points of a structure by 300% when garrisoned within."
+}

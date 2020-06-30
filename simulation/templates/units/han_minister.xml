@@ -7,15 +7,14 @@
     </Armour>
     <Attack>
         <Capture>
-            <Capture>20</Capture>
+            <Capture>15</Capture>
             <MaxRange>4</MaxRange>
             <RepeatTime>1000</RepeatTime>
         </Capture>
     </Attack>
     <Auras datatype="tokens">
         units/han_minister_garrison
-        units/han_minister_gathering
-        units/han_minister_building
+        units/han_minister_worker
         units/han_minister_cost
     </Auras>
     <Cost>
@@ -27,7 +26,7 @@
         </Resources>
     </Cost>
     <Health>
-        <Max>150</Max>
+        <Max>50</Max>
     </Health>
     <Identity>
         <Civ>han</Civ>
@@ -80,6 +79,32 @@
     <Vision>
         <Range>40</Range>
     </Vision>
+    <Upgrade>
+        <Commandant>
+        <Entity>units/han_minister_commandant</Entity>
+        <Tooltip>Promoting this minister to Grand Commandant will grant it considerable powers and skills.</Tooltip>
+        <Cost>
+            <metal>500</metal>
+        </Cost>
+        <Time>1</Time>
+        </Commandant>
+        <Works>
+        <Entity>units/han_minister_works</Entity>
+        <Tooltip>Promoting this minister to Excellency of Works will grant it considerable powers and skills.</Tooltip>
+        <Cost>
+            <stone>500</stone>
+        </Cost>
+        <Time>1</Time>
+        </Works>
+        <Masses>
+        <Entity>units/han_minister_masses</Entity>
+        <Tooltip>Promoting this minister to Exellency Over the Masses will grant it considerable powers and skills.</Tooltip>
+        <Cost>
+            <food>1500</food>
+        </Cost>
+        <Time>1</Time>
+        </Masses>
+    </Upgrade>
     <VisualActor>
         <Actor>units/han/minister.xml</Actor>
     </VisualActor>

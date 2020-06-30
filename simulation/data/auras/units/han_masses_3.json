@@ -1,0 +1,9 @@
+{
+	"type": "global",
+	"affects": ["Minister"],
+	"modifications": [
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.25 }
+	],
+	"auraName": "Minister Herald",
+	"auraDescription": "Ministers across the Empire +25% walk speed."
+}

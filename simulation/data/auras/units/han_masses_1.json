@@ -1,0 +1,11 @@
+{
+	"type": "garrison",
+	"affects": [
+		"Fortress"
+	],
+	"modifications": [
+		{ "value": "ProductionQueue/BatchTimeModifier", "add": -0.3 }
+	],
+	"auraName": "Minister Coachman",
+	"auraDescription": "Sigificantly decrease the batch training time for units in the Fortress."
+}

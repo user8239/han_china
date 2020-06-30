@@ -6,9 +6,13 @@
         <SpecificName>Hu Ben</SpecificName>
         <SelectionGroupName>units/han_champion_infantry_swordsman</SelectionGroupName>
         <History>.</History>
+        <Classes datatype="tokens">PalaceGuard</Classes>
         <Icon>units/han_champion_infantry_swordsman.png</Icon>
         <RequiredTechnology>phase_city</RequiredTechnology>
     </Identity>
+    <TrainingRestrictions>
+        <Category>PalaceGuard</Category>
+    </TrainingRestrictions>
     <Upgrade>
         <SwitchToBow>
         <Entity>units/han_champion_infantry_archer</Entity>

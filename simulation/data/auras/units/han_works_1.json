@@ -1,0 +1,9 @@
+{
+	"type": "global",
+	"affects": ["Worker"],
+	"modifications": [
+		{ "value": "ResourceGatherer/Rates/food.rice", "multiply": 1.15 }
+	],
+	"auraName": "Minister of Finance and Agriculture",
+	"auraDescription": "+15% rice gather rate and gain a revenue of +3 Metal/second."
+}

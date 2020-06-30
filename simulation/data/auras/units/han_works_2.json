@@ -1,0 +1,10 @@
+{
+	"type": "range",
+	"radius": 40,
+	"affects": ["Structure"],
+	"modifications": [
+		{ "value": "Capturable/GarrisonRegenRate", "add": 2 }
+	],
+	"auraName": "Minister of the Imperial Clan",
+	"auraDescription": "Nearby structures +2 capture points (Loyalty) regeneration rate."
+}
