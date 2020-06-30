@@ -5,7 +5,7 @@
             <MaxRange>90</MaxRange>
             <MinRange>35.0</MinRange>
             <Projectile>
-				<Spread>6.0</Spread>
+				<Spread>5.0</Spread>
                 <Speed>75.5</Speed>
                 <Gravity>9.81</Gravity>
             </Projectile>
@@ -23,6 +23,9 @@
             </Splash>
         </Ranged>
     </Attack>
+    <Cost>
+        <Population>4</Population>
+    </Cost>
     <Footprint replace="">
         <Square width="11.0" depth="20.0"/>
         <Height>8.0</Height>
