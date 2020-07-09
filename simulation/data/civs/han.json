@@ -61,6 +61,11 @@
 			"Name": "Naval Prowess",
 			"History": "The Han Chinese developed some of the most underrated and innovative naval tactics of the era, including unmanned Fire Ships set adrift to destroy warring nations' sea vessels and shoreline structures.",
 			"Description": "A diverse navy will grant the Chinese a generously favorable position at sea."
+		},
+		{
+			"Name": "Isolated,
+			"History": "The Han Chinese had little connection to the other major civilizations of its time.",
+			"Description": "Han markets do not feature trade technologies. However, they may be researched in captured foreign markets."
 		}
 	],
 	"TeamBonuses": [

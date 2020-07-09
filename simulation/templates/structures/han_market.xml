@@ -9,6 +9,15 @@
         <SpecificName>Shì</SpecificName>
         <History>Needs history.</History>
     </Identity>
+    <ProductionQueue>
+    <Technologies datatype="tokens">
+      -trade_convoys_speed
+      -trade_convoys_armor
+      -trade_gain_01
+      -trade_gain_02
+      -trade_commercial_treaty
+    </Technologies>
+  </ProductionQueue>
     <Obstruction>
         <Static width="28.0" depth="28.0"/>
     </Obstruction>
