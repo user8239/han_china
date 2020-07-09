@@ -9,9 +9,8 @@
 	],
 	"modifications": [
 		{ "value": "ResourceGatherer/Rates/food/grain", "multiply": 0.8 },
-		{  "value": "Trader/GainMultiplier", "multiply": 0.85 }
+		{  "value": "Trader/GainMultiplier", "multiply": 0.75 }
 	],
 	"auraName": "Confucian Reforms",
-	"auraDescription": "Enemy farming rate -20% and land traders -15% trade gain during his lifetime.",
-	"overlayIcon": "art/textures/ui/session/auras/farming_penalty.png"
+	"auraDescription": "Enemy farming rate -20% and land traders -25% trade gain during his lifetime."
 }
